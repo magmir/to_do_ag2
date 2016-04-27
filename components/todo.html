@@ -1,0 +1,14 @@
+<div class="container well well-lg">
+    <div class="row col-md-8 col-md-offset-2">
+        <form name="form" (ngSubmit)="addNew()">
+            <input type='text' name="new" class="form" [(ngModel)]="newTodo" placeholder="Add task..." />
+            <button class="btn-add" type="submit">Add</button>
+        </form>
+    </div>
+    <nav>
+        <a [routerLink]="['All']" >All</a>
+        <a [routerLink]="['Completed']">Completed</a>
+    </nav>
+
+    <router-outlet [todos]="todos"></router-outlet>
+</div>

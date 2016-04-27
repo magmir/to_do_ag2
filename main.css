@@ -1,0 +1,63 @@
+body {
+    font-size: 16px;
+}
+
+.well-lg{
+    margin-top: 30px;
+}
+.done {
+    text-decoration: line-through;
+    color: #8a8a8a;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.btn-add {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #BBED93;
+}
+.btn-danger {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.form {
+    height: 50px;
+    width: 500px;
+}
+
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+}
+nav a:visited, a:link {
+    color: #607D8B;
+}
+nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+}
+nav a.router-link-active {
+    color: #039be5;
+}
+
+label {
+    display: block;
+    float: left;
+    padding-right:10px;
+    margin-bottom: 0;
+
+
+}
